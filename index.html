@@ -8,24 +8,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="minicircle"></div>
     <div id="main">
       <div id="hero" class="hero">
-        <div class="nav">
+        <div id="nav" class="nav">
           <a href="#">silver</a>
           <h4>MENU+</h4>
         </div>
         <div class="heading">
           <div class="hero-text">
-            <h1>Product</h1>
-            <h1 class="Designer">Designer</h1>
+            <div class="bounding">  
+              <h1 class="boundingelem">Product</h1>
+
+            </div>
+            <div class="bounding">  
+              <h1  class="Designer boundingelem">Designer</h1>
+            </div>
           </div>
           <div class="blocktext">
-            <h5>Based in delhi</h5>
+            <div class="bounding">  
+              <h5 class="boundingelem">Based in delhi</h5>
+            </div>
           </div>
         </div>
         <div class="subHeading">
-          <p>Available for Full Time & Freelance</p>
-          <p>work from Sep ‘24</p>
+          <div class="bounding">  
+            <p class="boundingelem">Available for Full Time & Freelance</p>
+          </div>
+          <div class="bounding">  
+            <p class="boundingelem">work from Sep ‘24</p>
+          </div>
         </div>
         <div class="bottom-box">
           <div class="link">
@@ -97,7 +109,12 @@
         </div>
       </div>
     </div>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
+  </body>
 </html>
